@@ -12,3 +12,7 @@
 
 # Import modules
 import sys, os, arcpy
+
+# Set input variables (Hard-wired)
+inputFile = '../Data/ARGOSData/1997dg.txt'
+outputFC = '../Scratch/ARGOStrack.shp'
